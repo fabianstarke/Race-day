@@ -5,7 +5,8 @@ let runnerAge = 18;
 console.log(raceNumber)
 
 if(!runnerRegisteredEarly){
-  console.log(raceNumber + 1000)
+  raceNumber += 1000;
+}
 
 if(runnerAge >= 18 && runnerRegisteredEarly){
   console.log(raceNumber + ':  You will run at 9:30')
